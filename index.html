@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset='utf-8'>
+    <meta name="author" content="Madeleine Gustavsson" />
+    <meta name="description" content="Examinationsprojekt" />
+    <link type="text/css" rel="stylesheet" href="main.css">
+
+    <title> Mitt projekt - Madeleine Gustavsson </title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+
+            <h1> Kattsons musjakt </h1>
+            <img id="katt" src="images/kattson.png" alt="Bild på Kattson">
+
+            <div id="timer">
+                <p>10</p>
+            </div>
+
+
+        </header>
+
+        <main>
+            <section class="instructions">
+
+                <h2>Hur det går till: </h2>
+
+                <p>
+                    Kattson är en innekatt som aldrig har varit på musjakt. Du har fått i uppgift att hjälpa Kattson
+                    att jaga sina första möss. I rutan bredvid kommer du spela som Kattson, och försöka äta upp alla
+                    möss
+                    innan tiden går ut. Du väljer själv hur många möss du tror du hinner äta upp. Om du inte anger ett
+                    antal kommer målet vara att fånga 15 möss.
+                </p>
+
+                <ul>
+                    <li>Instruktioner:</li>
+                    <li> Du har <em>10 sekunder</em> på dig.</li>
+                    <li> <strong>Du kan endast äta en mus om Kattson har öppnat munnen.</strong></li>
+                    <li> Du får själv gissa hur många möss du tror du hinner fånga. </li>
+                    <li> Antal möss kan vara från 1 till 100.</li>
+                </ul>
+
+                <p>
+                    Mössen kommer att komma på olika ställen i rutan, och ibland kanske de kommer närmre varandra än
+                    föregående gång.
+                </p>
+
+                <p>
+
+                    OBS! Detta spelet är i en alfa-version.
+                    <br/>
+                    <em>Bild på mus från Ricky Kharawala, unsplash.com.</em>
+                </p>
+
+                <h3 id="goodluck">Lycka till! </h3>
+        
+            </section>
+
+            <p> Hur många möss tror du att Kattson hinner äta på 10 sekunder? </p>
+            <input type="text" value="" placeholder="Skriv heltal mellan 1-100." id="musnummer">
+            <input class="button" type="button" value="Lås antal" onclick="guess();">
+            <br />
+            <br />
+            <input class="button b2" type="button" value="Starta här" onclick="start();">
+            <input class="button" type="button" value="Reset" onclick="reset();">
+            <p class="eatmouse">Antal uppätna möss: <span id="eatenmouse">0</span></p>
+
+
+            <div id="gamebox">
+
+            </div>
+
+
+        </main>
+    </div>
+
+    <script type="text/javascript" src="projekt.js"></script>
+
+
+
+</body>
+
+</html>

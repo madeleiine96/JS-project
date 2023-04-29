@@ -1,0 +1,102 @@
+body {
+
+    background-color: #D5EEFA;
+    font-family: Helvetica, Arial, sans-serif;
+
+}
+
+#wrapper {
+    max-width: 1920px;
+}
+
+h1,
+main {
+    padding-left: 2%;
+}
+
+#katt, h1, #timer {
+    float:left; 
+}
+#katt {
+    margin-left: 3%; 
+}
+#timer p{
+    display: inline;
+}
+
+.b2 {
+    margin-top: 20px;
+    margin-left: 690px; 
+}
+
+.eatmouse {
+    display: inline;
+  padding-left: 30px;
+     
+    
+}
+#eatenmouse {
+    font-weight: bold;
+}
+
+#timer {
+
+    margin-left:5%; 
+    text-align: center;
+    padding-top:25px;
+    font-size: 30pt;
+    background-image: url(images/timer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:80px; 
+    height:65px; 
+
+   
+}
+
+.instructions {
+
+    width: 550px;
+    clear:both;
+
+}
+
+
+h1,
+h2,
+h3 {
+    color: navy;
+
+}
+
+h2,
+h3 {
+    font-size: 1.2em;
+}
+
+
+#gamebox {
+    cursor: url(images/kattson.png), pointer;
+}
+
+
+.musbild {
+    cursor: url(images/kattson2.png), pointer;
+}
+
+
+
+.button {
+
+    background: navy;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 7px;
+    font-size: 1em;
+    color: aliceblue;
+
+}
+
+.button:hover {
+    background-color: #686FFC;
+}
